@@ -1,0 +1,93 @@
+\doxysection{Todo\+List\+Management Class Reference}
+\hypertarget{class_todo_list_management}{}\label{class_todo_list_management}\index{TodoListManagement@{TodoListManagement}}
+
+
+Inherited by Todo\+List\+Search.
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_todo_list_management_aabb5ceb725645884ea6597211dfc9345}{Todo\+List\+Management}} ()
+\item 
+void \mbox{\hyperlink{class_todo_list_management_a9626660d8178d85beee3d07b4e0fb991}{add\+Todo}} (String task, String priority)
+\item 
+String \mbox{\hyperlink{class_todo_list_management_a5414388a1dbfa8f049b5dd4e40a23773}{get\+Priority}} (String task)
+\item 
+void \mbox{\hyperlink{class_todo_list_management_a187646fc4443935f577f0c4f1df9dfc1}{update\+Todo\+Priority}} (String task, String new\+Priority)
+\item 
+void \mbox{\hyperlink{class_todo_list_management_a2bd882f496a052a0eccf2e90c4fe1b33}{delete\+Todo}} (String task)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_todo_list_management_ab464233401fe12e5a3ab74eb9314ab9f}\label{class_todo_list_management_ab464233401fe12e5a3ab74eb9314ab9f} 
+Map$<$ String, String $>$ {\bfseries todos}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_todo_list_management_aabb5ceb725645884ea6597211dfc9345}\label{class_todo_list_management_aabb5ceb725645884ea6597211dfc9345} 
+\index{TodoListManagement@{TodoListManagement}!TodoListManagement@{TodoListManagement}}
+\index{TodoListManagement@{TodoListManagement}!TodoListManagement@{TodoListManagement}}
+\doxysubsubsection{\texorpdfstring{TodoListManagement()}{TodoListManagement()}}
+{\footnotesize\ttfamily Todo\+List\+Management.\+Todo\+List\+Management (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor to initialize the todo list map. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_todo_list_management_a9626660d8178d85beee3d07b4e0fb991}\label{class_todo_list_management_a9626660d8178d85beee3d07b4e0fb991} 
+\index{TodoListManagement@{TodoListManagement}!addTodo@{addTodo}}
+\index{addTodo@{addTodo}!TodoListManagement@{TodoListManagement}}
+\doxysubsubsection{\texorpdfstring{addTodo()}{addTodo()}}
+{\footnotesize\ttfamily void Todo\+List\+Management.\+add\+Todo (\begin{DoxyParamCaption}\item[{String}]{task,  }\item[{String}]{priority }\end{DoxyParamCaption})}
+
+Adds a new todo with the given task and priority. 
+\begin{DoxyParams}{Parameters}
+{\em task} & The task to be added to the todo list. \\
+\hline
+{\em priority} & The priority of the task. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_todo_list_management_a2bd882f496a052a0eccf2e90c4fe1b33}\label{class_todo_list_management_a2bd882f496a052a0eccf2e90c4fe1b33} 
+\index{TodoListManagement@{TodoListManagement}!deleteTodo@{deleteTodo}}
+\index{deleteTodo@{deleteTodo}!TodoListManagement@{TodoListManagement}}
+\doxysubsubsection{\texorpdfstring{deleteTodo()}{deleteTodo()}}
+{\footnotesize\ttfamily void Todo\+List\+Management.\+delete\+Todo (\begin{DoxyParamCaption}\item[{String}]{task }\end{DoxyParamCaption})}
+
+Deletes the todo with the given task. If the todo is not found, prints an error message. 
+\begin{DoxyParams}{Parameters}
+{\em task} & The task of the todo to be deleted. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_todo_list_management_a5414388a1dbfa8f049b5dd4e40a23773}\label{class_todo_list_management_a5414388a1dbfa8f049b5dd4e40a23773} 
+\index{TodoListManagement@{TodoListManagement}!getPriority@{getPriority}}
+\index{getPriority@{getPriority}!TodoListManagement@{TodoListManagement}}
+\doxysubsubsection{\texorpdfstring{getPriority()}{getPriority()}}
+{\footnotesize\ttfamily String Todo\+List\+Management.\+get\+Priority (\begin{DoxyParamCaption}\item[{String}]{task }\end{DoxyParamCaption})}
+
+Retrieves the priority of the todo with the given task. 
+\begin{DoxyParams}{Parameters}
+{\em task} & The task of the todo. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The priority of the todo, or null if not found. 
+\end{DoxyReturn}
+\Hypertarget{class_todo_list_management_a187646fc4443935f577f0c4f1df9dfc1}\label{class_todo_list_management_a187646fc4443935f577f0c4f1df9dfc1} 
+\index{TodoListManagement@{TodoListManagement}!updateTodoPriority@{updateTodoPriority}}
+\index{updateTodoPriority@{updateTodoPriority}!TodoListManagement@{TodoListManagement}}
+\doxysubsubsection{\texorpdfstring{updateTodoPriority()}{updateTodoPriority()}}
+{\footnotesize\ttfamily void Todo\+List\+Management.\+update\+Todo\+Priority (\begin{DoxyParamCaption}\item[{String}]{task,  }\item[{String}]{new\+Priority }\end{DoxyParamCaption})}
+
+Updates the priority of the todo with the given task. If the todo is not found, prints an error message. 
+\begin{DoxyParams}{Parameters}
+{\em task} & The task of the todo to be updated. \\
+\hline
+{\em new\+Priority} & The new priority to be set. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Todo\+List\+Management.\+java\end{DoxyCompactItemize}
